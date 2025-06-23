@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #f2f2f2;
+}
+
+.top-bar {
+  background: #ffa726;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #1e1e1e;
+  padding: 10px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffb347;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ffb347;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+.hero {
+  position: relative;
+  background: url('https://i.pinimg.com/originals/59/a9/fc/59a9fc930d7a515591346186259846cf.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffb347;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #ff6f61;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ff9800;
+  color: #000;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 0 8px #ffb347;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffc107;
+  color: #111;
+}
